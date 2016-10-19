@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Non stop</string>
+    <string name="activity_orientation">Activity with configChanges</string>
+    <string name="activity_retained">Activity with retained Fragment</string>
+    <string name="activity_nested_retained">Activity with nested retained Fragment</string>
+    <string name="activity_view_pager">Retained fragment inside ViewPager</string>
+    <string name="swipe_hint">Swipe left/right for 1 more page</string>
+</resources>

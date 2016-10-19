@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center|center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/button_config"
+        android:text="@string/activity_orientation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        tools:targetApi="ice_cream_sandwich"/>
+    <Button
+        android:id="@+id/button_retained"
+        android:text="@string/activity_retained"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        tools:targetApi="ice_cream_sandwich"/>
+    <Button
+        android:id="@+id/button_nested_retained"
+        android:text="@string/activity_nested_retained"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        tools:targetApi="ice_cream_sandwich"/>
+    <Button
+        android:id="@+id/button_view_pager"
+        android:text="@string/activity_view_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        tools:targetApi="ice_cream_sandwich"/>
+</LinearLayout>
